@@ -35,11 +35,11 @@ panelview,
 
 #library-button, #developer-button, #enhancerforyoutube_maximerf_addons_mozilla_org-browser-action, #_580efa7d-66f9-474d-857a-8e2afc6b1181_-browser-action, #_762f9885-5a13-4abd-9c77-433dcd38b8fd_-browser-action, #ublock0_raymondhill_net-browser-action, #addon_darkreader_org-browser-action, #sponsorblocker_ajay_app-browser-action, #_c4b582ec-4343-438c-bda2-2f691c16c262_-browser-action{
   background: #000 !important;
-  border: 2px solid #ffcd00;
+  border: 2px solid #000;
   box-shadow: #000 0px -1px 2px;
   border-radius:50px;
   margin: 2px !important;
-  padding: 1px !important;
+  padding: 0 1px !important;
 }
 
 #fxa-toolbar-menu-button{
@@ -52,7 +52,7 @@ panelview,
 }
 
 #urlbar-input-container, #urlbar-background{
-  background: #373737;
+/*   background: #373737; */
   margin-top: 1px;
   border: 2px solid #000 !important;
   border-radius: 50px !important;;
