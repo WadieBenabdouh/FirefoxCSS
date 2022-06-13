@@ -1,0 +1,29 @@
+@-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
+    .click-target-container *, .top-sites-list * {
+        color: #fff !important ;
+        text-shadow: 2px 2px 2px #222 !important ;
+    }
+
+    body::before {
+        content: "" ;
+        z-index: -1 ;
+        position: fixed ;
+        top: 0 ;
+        left: 0 ;
+        background: #f9a no-repeat url(img/railway.jpg) center ;
+        background-size: cover ;
+        width: 100vw ;
+        height: 100vh ;
+    }
+    
+    .top-site-outer .tile{
+        background:  #42414d !important;
+        border: 2px solid #000000 !important;
+        border-radius: 100px !important;;
+    }
+    
+    .top-site-outer .top-site-icon{
+        background-color: #0000 !important;;
+    }
+    
+}
