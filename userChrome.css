@@ -1,9 +1,6 @@
 panelview,  
 .panel-arrowcontent{ 
-/*    background: rgb(131,58,180) !important;;
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%) !important;;  */
     color: #fff !important;
-/*     font-weight: bold; */
 }
 
 #PersonalToolbar{
@@ -18,4 +15,54 @@ panelview,
   font-weight: bold;
   margin: 3px 0;
 }
+
+#nav-bar-customization-target{
+  background: #FF4500 !important;
+/*   the wide bar that has home button and back button */
+}
+
+.toolbarbutton-1{
+  background: #FF4500!important; 
+}
+
+#tabs-newtab-button{
+/*   background: #CD853F !important; */
+  border-radius: 50px;
+  border: 1px solid #000; 
+   background: rgb(255,0,0) !important;;
+  background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%) !important;; 
+}
+
+#library-button, #developer-button, #enhancerforyoutube_maximerf_addons_mozilla_org-browser-action, #_580efa7d-66f9-474d-857a-8e2afc6b1181_-browser-action, #_762f9885-5a13-4abd-9c77-433dcd38b8fd_-browser-action, #ublock0_raymondhill_net-browser-action, #addon_darkreader_org-browser-action, #sponsorblocker_ajay_app-browser-action, #_c4b582ec-4343-438c-bda2-2f691c16c262_-browser-action{
+  background: #000 !important;
+  border: 2px solid #ffcd00;
+  box-shadow: #000 0px -1px 2px;
+  border-radius:50px;
+  margin: 2px !important;
+  padding: 1px !important;
+}
+
+#fxa-toolbar-menu-button{
+  background: #fdff00 !important;
+  border: 2px solid #000;
+  box-shadow: #000 0px -1px 2px;
+  border-radius: 10px;
+  margin: 2px !important;
+  padding: 1px !important;
+}
+
+#urlbar-input-container, #urlbar-background{
+  background: #373737;
+  margin-top: 1px;
+  border: 2px solid #000 !important;
+  border-radius: 50px !important;;
+}
+
+#home-button{
+  background: #000 !important;; 
+}
+#reload-button{
+  background: #5d5d5d !important;
+}
+
 
